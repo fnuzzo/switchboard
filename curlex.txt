@@ -1,0 +1,4 @@
+//Invio di una push
+
+
+curl -i -X POST -H "Content-Type: application/json" pt: application/json" -d '{"CLIENTKEY":"jd4802k6ge0phop9","DEVICETYPE":"ANDROID","TIMETOLIVE":"WEEK","TEXT":"test","NOTIFICATIONTYPE":"text"}' http://localhost:8080/switchboard/Client/v1/request
